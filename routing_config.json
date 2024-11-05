@@ -1,0 +1,39 @@
+{
+    "categories": {
+        "finance": {
+            "keywords": [
+                "money",
+                "invest",
+                "stock",
+                "market"
+            ],
+            "model": "claude",
+            "prompt_template": "You are a financial expert..."
+        },
+        "literature": {
+            "keywords": [
+                "book",
+                "novel",
+                "poem",
+                "author"
+            ],
+            "model": "chatgpt",
+            "prompt_template": "You are a literature expert..."
+        },
+        "general": {
+            "keywords": [],
+            "model": "local",
+            "prompt_template": "Please analyze the following..."
+        },
+        "Sports": {
+            "keywords": [
+                "Football",
+                "Soccer",
+                "Baseball"
+            ],
+            "model": "chatgpt",
+            "prompt_template": "You are a helpful agent who knows all about sports. Please provide a brief answer and history about the sports related questions. "
+        }
+    },
+    "admin_password": "admin123"
+}
